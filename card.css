@@ -1,0 +1,70 @@
+#main{
+	width:100%; 
+	height:100%; 
+	background-color:green;
+}
+#stay{
+	width:100px; height:27px; position:absolute; margin-left:1100px; margin-top:300px;
+}
+#hit{
+	width:100px; height:27px; position:absolute; margin-left:1100px; margin-top:350px;
+}
+#reset{
+	width:100px; height:27px; position:absolute; margin-left:1100px; margin-top:400px;
+}
+#start{
+	width:100px; height:27px; position:absolute; margin-left:1100px; margin-top:250px;
+}
+#dealer{
+	position:absolute; width:181px; height:279px; margin-left:307px; margin-top:200px;
+background-color:grey;
+}
+#player{
+	position:absolute; width:181px; height:279px; margin-left:707px; 
+	margin-top:200px;background-color:grey;
+
+}
+#result{
+	margin-left:407; margin-top:40; position:absolute;width:500px;
+	height:70; text-align:center;
+}
+#d{
+	font-color:red; margin-left:50px; margin-top:300px;
+}
+#p{
+	font-color:red; margin-left:50px; margin-top:300px;
+}
+#message{
+	font-size:40 ; color:brown;
+}
+#s1{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s2{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s3{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s4{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s5{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s6{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s7{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s8{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s9{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+#s10{
+	"width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;"
+}
+
