@@ -42,7 +42,7 @@ function m1(){
 	var dealercard1=deal();
 	dealerScore[0]=getValue(dealercard1);
 	console.log(dealerScore[0]);
-	document.getElementById('s1').src = dealercard1+'.png';
+	document.getElementById('s1').src = 'images/'+dealercard1+'.png';
 	setTimeout(next, 1000);
 	}
 function next(){
@@ -55,7 +55,7 @@ function m2(){
 	var playercard1 = deal();
 	playerScore[0]=getValue(playercard1);
 	console.log(playerScore[0]);
-	document.getElementById('s2').src = playercard1+'.png';
+	document.getElementById('s2').src ='images/'+ playercard1+'.png';
 	setTimeout(next1, 1000);
 	}
 			
@@ -63,7 +63,7 @@ function next1(){
 	x=30;
 	var f =document.getElementById('s4')
 	rotate_container(f);
-	document.getElementById('s4').src = 'deck.png';
+	document.getElementById('s4').src = 'images/deck.png';
 	setTimeout(next2, 1000);
 	}
 function next2(){
@@ -76,7 +76,7 @@ function m3(){
 	var playercard2 = deal();
 	playerScore[1]=getValue(playercard2);
 	console.log(playerScore[0]);
-	document.getElementById('s3').src = playercard2+'.png';
+	document.getElementById('s3').src = 'images/'+playercard2+'.png';
 	setTimeout(change, 1000);
 	}
 var d=430;var j=4; var index=1;
@@ -93,7 +93,7 @@ function hit(){
 function m4(){
 	var card3 = deal();
 	playerScore[index]=getValue(card3);
-	document.getElementById('s'+j).src = card3+'.png';
+	document.getElementById('s'+j).src ='images/'+ card3+'.png';
 	//setTimeout(change, 1000);
 	setTimeout(calculatePlayerScore(),800);
 	
@@ -108,7 +108,7 @@ function stay(){
 	var dealercard2=deal();
 	dealerScore[1]=getValue(dealercard2);
 	console.log(dealerScore[1]);
-	document.getElementById('s4').src = dealercard2+'.png';
+	document.getElementById('s4').src ='images/'+ dealercard2+'.png';
 	calculatePlayerScore();
 	calculateDealerScore();
 }
@@ -175,42 +175,4 @@ function change(){
    // console.log("0");
 }
 	
-//console.log(playerScore[1]);
-// 	function sleep(milliseconds) {
-//   var start = new Date().getTime();
-//   for (var i = 0; i < 1e7; i++) {
-//     if ((new Date().getTime() - start) > milliseconds){
-//       break;
-//     }
-//   }
-// }
-// var count=4; var i;var x1=-30; var x2 = 370;	
-// function startGame(){
-// 	i=1;
-// 	while(i<=count){
-// 	//for(i=1;i<=count;i++){
-// 	if(i<=count){
-// 		if(i%2 == 0){
-// 			x1 = x1 + 30;
-// 			x=x1;
-// 		}
-// 		else{
-// 			x2 = x2 + 30;
-// 			x=x2;
-// 		}
-// 		var e =document.getElementById('s'+i);
-// 		rotate_container(e);
-// 		sleep(800);
-// 		//setTimeout(m4,1000);
-// 		i=i+1;
-// 	}
-// }
 
-// }
-	
-// function m4(){
-// 				var card3 = deal();
-// 				//b.src=card3+'.png';
-// 				document.getElementById('s'+i).src = card3+'.png';
-// 				setTimeout(change, 1000);
-// 			}

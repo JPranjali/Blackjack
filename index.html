@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>
+		Blackjack
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/card.css" />
+	<script>
+	</script>
+	
+</head>
+
+<body>
+<div id="main">
+<button id="stay" >STAY</button>
+<button id="hit"  >HIT</button>
+<button id="reset" >RESET</button>
+<button id="start" >Start</button>
+
+<div id="result" ><p id="message" ></font></div>
+
+<div id="dealer" ><p id="d" >DEALER</p></div>
+<div id="player" ><p id="p" >PLAYER</p></div>
+
+<img src="images/deck.png" id="s1" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s2" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s3" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s4" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s5" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s6" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s7" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s8" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s9" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+<img src="images/deck.png" id="s10" style="width:181px;height:279px; margin-top:0; margin-left:0;position:absolute;" >
+
+</div>
+
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+    <script src="library/snabbt.min.js"></script>
+    <script src="js/card.js"></script>
+</html>
+
+
+
+
+
+
+
+ <!--  FINAL
+  // Our deal function will return a random card
+var deal = function() {
+  card = Math.floor(Math.random()*52+1);
+  return card;
+};
+
+// Deal out our first hand
+var card1 = deal();
+var card2 = deal();
+
+
+ -->
