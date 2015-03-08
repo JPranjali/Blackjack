@@ -10,4 +10,4 @@ On stay, dealer's down-facing card is shown up.
 The sum of dealer's card-facevalues is calculated. Scores of dealer and player are compared. 
 Whoever has a max score which is less than or equal to 21 wins!
 
-The motive behind designing this game is learning to use animation library in javascript.
+The intention behind this is learning to use animation library in javascript!
